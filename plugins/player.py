@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Aditya Halder (@AdityaHalder)",
+        f"Powered By: @near44",
         (255, 255, 255),
         font=font,
     )
@@ -221,7 +221,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://te.legra.ph/file/a8e7f87565edc14aea68d.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
