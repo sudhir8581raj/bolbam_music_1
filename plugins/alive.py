@@ -33,13 +33,12 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/a8e7f87565edc14aea68d.jpg",
+        photo=f"https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ Developer : [Near](https://t.me/near44)
-┣★ Manager : [Aish](https://t.me/aishh44)
 ┣★ Support : [✿❀Aɴɪᴍᴇ Wᴏʀʟᴅ❀✿](https://t.me/ANIME_WORLD15)
 ┣★ Credits › : [Mikey](https://t.me/Cute_Kristyy)
 ┗━━━━━━━━━━━━━━━━━┛
@@ -62,7 +61,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "aditya", "near"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/a8e7f87565edc14aea68d.jpg",
+        photo=f"https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
