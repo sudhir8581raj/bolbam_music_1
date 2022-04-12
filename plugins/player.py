@@ -229,7 +229,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ANIME_WORLD15")
+                            url=f"https://t.me/OP_FRlENDS")
 
                 ]
             ]
