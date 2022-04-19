@@ -38,13 +38,13 @@ async def start_(client: Client, message: Message):
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ Developer : [Light Yagami](https://t.me/Cute_Kristyy)
+┣★ Developer : [Aditya](https://t.me/near44)
 ┣★ Manager : [♛┈⛧┈┈•༶ØP Gírl༶•┈┈⛧┈♛](https://t.me/OP_Girll)
-┣★ Support : [✿❀Aɴɪᴍᴇ Wᴏʀʟᴅ❀✿](https://t.me/ANIME_WORLD15)
-┣★ Chat : [✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰](https://t.me/OP_FRlENDS)
+┣★ Support : [✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰](https://t.me/OP_FRlENDS)
+┣★ Chat : [✿❀Aɴɪᴍᴇ Wᴏʀʟᴅ❀✿](https://t.me/ANIME_WORLD15)
 ┗━━━━━━━━━━━━━━━━━┛
 
-💞 E N J O Y....
+💞 Dot forget to join our groups for further updates.
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -61,7 +61,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "aditya", "near"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg",
+        photo=f"https://te.legra.ph/file/b0cbf256b34584cce041a.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
