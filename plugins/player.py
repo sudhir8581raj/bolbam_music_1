@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Presented by ᅠᅠࣩࣩ❤️🌟≛ ɐʎʇᴉp∀≛ 🌟🌈⁪⁬⁮⁮ᅠᅠࣩࣩ",
+        f"Presented by Aditya",
         (255, 255, 255),
         font=font,
     )
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 Sɘɑɤƈɦɩɳʛ ...**")
+    lel = await message.reply("**🔎|Searching..**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,24 +129,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 Ʌʈ🤞Fɩrsʈ 🥀 Ɱɑƙɘ ♥️ Ɱɘ ⭐ Ʌɗɱɩŋ 😎 ...**")
+                        "**Please promote me an admin first.**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 I🤞ʌɱ 🥀 Ʀɘɑɗy ♥️ Ƭø ⭐ Ƥɭɑy 😎 ...**")
+                        message.chat.id, "**Ready to rock!**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ 😔 Øɤ 🎸 Ƈøŋʈɑƈʈ ❤️ ʈø : @near44 | @Cute_Kristyy 🥀** ")
+                        f"**Assistant is banned in your group. Please unban it and try again.** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ 😔 Øɤ 🎸 Ƈøŋʈɑƈʈ ❤️ ʈø : @near44 | @Cute_Kristyy 🥀 ...*")
+            f"**Assistant is banned in your group. Please unban it and try again.**")
         return
     
     audio = (
@@ -159,12 +159,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**Playing more than {DURATION_LIMIT} minutes is not allowed.**"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg"
+        thumb_name = "https://te.legra.ph/file/9b55fae0bcb4282956761.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -173,8 +173,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ANIME_WORLD15")
+                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
+                            url=f"https://t.me/OP_FRlENDS")
 
                 ]
             ]
@@ -212,7 +212,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
                             url=f"https://t.me/OP_FRlENDS")
 
                 ]
@@ -221,14 +221,14 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg"
+            thumb_name = "https://te.legra.ph/file/99c114c00021aa7329586.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
                             url=f"https://t.me/OP_FRlENDS")
 
                 ]
@@ -237,7 +237,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**Playing more than {DURATION_LIMIT} minutes is not allowed.**"
             )
             return
         requested_by = message.from_user.first_name
@@ -246,9 +246,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 Ɠɩⱱɘ 🙃 Ɱʋsɩƈ 💿 Ɲɑɱɘ 😍\n💞 Ƭø 🔊 Ƥɭɑy 🌷...**"
+                "**Please provide a song name to play.**"
             )
-        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
+        await lel.edit("**🔄|Processing..**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -273,7 +273,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 Ɱʋsɩƈ 😕 Ɲøʈ 📵 Føʋɳɗ❗️\n💞 Ƭɤy ♨️ Ʌɳøʈɦɘɤ 🌷...**"
+                "**Nothing found. Please try again.**"
             )
             print(str(e))
             return
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ANIME_WORLD15")
+                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
+                            url=f"https://t.me/OP_FRlENDS")
 
                 ]
             ]
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**Playing more than {DURATION_LIMIT} minutes is not allowed.**"
             )
             return
         requested_by = message.from_user.first_name
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
+            caption="**Added to the playlist at `{}` position.**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="**Playing...**".format(),
            )
 
     os.remove("final.png")
@@ -335,8 +335,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg", 
-                             caption="**🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             photo="https://te.legra.ph/file/46cd4f9f2c43fb97299a4.jpg", 
+                             caption="**Paused.**"
     )
 
 
@@ -346,8 +346,8 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg", 
-                             caption="**🤞Nøω 🥀\n⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             photo="https://te.legra.ph/file/46cd4f9f2c43fb97299a4.jpg", 
+                             caption="**Resumed.**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**Skipped.**")
     else:
         queues.task_done(chat_id)
         
@@ -380,8 +380,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg", 
-                             caption=f'**🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             photo="https://te.legra.ph/file/796a9f462b25d315c9999.jpg", 
+                             caption=f'**Skipped.**'
    ) 
 
 
@@ -396,8 +396,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg", 
-                             caption="**🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             photo="https://te.legra.ph/file/ed2098ea6257d711f3c17.jpg", 
+                             caption="**Stopped.**"
     )
 
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg",
-                              caption="**🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              photo="https://te.legra.ph/file/7a2e0e9ed046ffc3074d9.jpg",
+                              caption="**Reloaded & Refreshed.**"
     )
