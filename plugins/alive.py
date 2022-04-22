@@ -40,7 +40,6 @@ async def start_(client: Client, message: Message):
 ┣★ Developer : [Aditya](https://t.me/near44)
 ┣★ Manager : [♛┈⛧┈┈•༶ØP Gírl༶•┈┈⛧┈♛](https://t.me/OP_Girll)
 ┣★ Support : [✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰](https://t.me/OP_FRlENDS)
-┣★ Chat : [✿❀Aɴɪᴍᴇ Wᴏʀʟᴅ❀✿](https://t.me/ANIME_WORLD15)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 Dot forget to join our groups for further updates.
