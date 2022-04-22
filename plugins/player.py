@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**Added to the playlist at `{}` position.**".format(position),
+            caption="**Added to the playlist at position `{}`.**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -329,7 +329,7 @@ async def play(_, message: Message):
     return await lel.delete()
     
     
-@Client.on_message(commandpro(["/pause", "pause"]) & other_filters)
+@Client.on_message(commandpro(["/pause", "pause", "rukja", "ruk", "band"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
@@ -340,7 +340,7 @@ async def pause(_, message: Message):
     )
 
 
-@Client.on_message(commandpro(["/resume", "resume"]) & other_filters)
+@Client.on_message(commandpro(["/resume", "resume", "chal",]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
@@ -352,7 +352,7 @@ async def resume(_, message: Message):
 
 
 
-@Client.on_message(commandpro(["/skip", "/next", "skip", "next"]) & other_filters)
+@Client.on_message(commandpro(["/skip", "/next", "skip", "next", "dusra", "hatao", "bekar"]) & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
