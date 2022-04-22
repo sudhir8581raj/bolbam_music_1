@@ -99,7 +99,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#"])
+    commandpro(["/play", "/yt", "/ytp", "play", "yt", "ytp", "@", "#", "p", "song", "."])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
