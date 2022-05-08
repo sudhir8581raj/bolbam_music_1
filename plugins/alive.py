@@ -35,20 +35,20 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/1ce8ad1f3d7d44b19f207.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥Add me to your group and enjoy the high quality songs over telegram video chat feature. 
+🦋 Add me to your group and enjoy the high quality songs over telegram video chat feature. 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ Developer : [Aditya](https://t.me/near44)
-┣★ Manager : [♛┈⛧┈┈•༶ØP Gírl༶•┈┈⛧┈♛](https://t.me/OP_Girll)
-┣★ Support : [✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰](https://t.me/OP_FRlENDS)
+┣★ Developer : [ηєαя⚘](https://t.me/near16)
+┣★ Manager : [𓆩𐍃𐍂𓆪 𝙍𝘼𝘾𝙃𝙉𝘼 ⧉⃞꯭♥️━━](https://t.me/Xo_Silent_scream)
+┣★ Support : [✰ 𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬 ✰](https://t.me/world_of_telegramer)
 ┗━━━━━━━━━━━━━━━━━┛
 
-💞 Dot forget to join our groups for further updates.
+🦋 Dot forget to join our group for further updates.
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/OP_FRlENDS")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/world_of_telegramer")
                 ]
                 
            ]
@@ -65,7 +65,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/OP_FRlENDS")
+                        "< ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ >", url=f"https://t.me/world_of_telegramer")
                 ]
             ]
         ),
