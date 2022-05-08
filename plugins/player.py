@@ -173,8 +173,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
-                            url=f"https://t.me/OP_FRlENDS")
+                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
+                            url=f"https://t.me/world_of_telegramer")
 
                 ]
             ]
@@ -212,8 +212,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
-                            url=f"https://t.me/OP_FRlENDS")
+                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
+                            url=f"https://t.me/world_of_telegramer")
 
                 ]
             ]
@@ -228,8 +228,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
-                            url=f"https://t.me/OP_FRlENDS")
+                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
+                            url=f"https://t.me/world_of_telegramer")
 
                 ]
             ]
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="✰ 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐅𝐨𝐫𝐞𝐯𝐞𝐫 ✰",
-                            url=f"https://t.me/OP_FRlENDS")
+                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
+                            url=f"https://t.me/world_of_telegramer")
 
                 ]
             ]
@@ -340,7 +340,7 @@ async def pause(_, message: Message):
     )
 
 
-@Client.on_message(commandpro(["/resume", "resume", "chal",]) & other_filters)
+@Client.on_message(commandpro(["/resume", "resume", "chal", "baj"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
