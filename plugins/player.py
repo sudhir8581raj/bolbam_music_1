@@ -173,8 +173,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
-                            url=f"https://t.me/world_of_telegramer")
+                            text="Join Now",
+                            url=f"https://t.me/EduGymFamily")
 
                 ]
             ]
@@ -212,8 +212,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
-                            url=f"https://t.me/world_of_telegramer")
+                            text="Join Now",
+                            url=f"https://t.me/EduGymFamily")
 
                 ]
             ]
@@ -228,8 +228,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
-                            url=f"https://t.me/world_of_telegramer")
+                            text="Join Now",
+                            url=f"https://t.me/EduGymFamily")
 
                 ]
             ]
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬📱",
-                            url=f"https://t.me/world_of_telegramer")
+                            text="Join Now",
+                            url=f"https://t.me/EduGymFamily")
 
                 ]
             ]
