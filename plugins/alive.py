@@ -37,9 +37,9 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 🦋 Add me to your group and enjoy the high quality songs over telegram video chat feature. 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ Developer : [ηєαя⚘](https://t.me/near16)
-┣★ Manager : [𓆩𐍃𐍂𓆪 𝙍𝘼𝘾𝙃𝙉𝘼 ⧉⃞꯭♥️━━](https://t.me/Xo_Silent_scream)
-┣★ Support : [✰ 𝐖𝐨𝐫𝐥𝐝 𝐎𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦𝐞𝐫𝐬 ✰](https://t.me/world_of_telegramer)
+┣★ Developer : [ηєαя⚘](https://t.me/sarminz)
+┣★ Manager : [ƚɾιʅʅισɳαιɾҽ🌺🌺](https://t.me/FUCKER_OF_LIFE)
+┣★ Support : [✰ Family 💖 ✰](https://t.me/EduGymFamily)
 ┗━━━━━━━━━━━━━━━━━┛
 
 🦋 Dot forget to join our group for further updates.
@@ -48,7 +48,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/world_of_telegramer")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/EduGymFamily")
                 ]
                 
            ]
@@ -65,7 +65,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "< ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ >", url=f"https://t.me/world_of_telegramer")
+                        "< ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ >", url=f"https://t.me/EduGymFamily")
                 ]
             ]
         ),
